@@ -1,0 +1,15 @@
+{
+  "name": "class-vanilla-router",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A JS Vanilla router with a Router class",
+  "main": "main.js",
+  "scripts": {
+    "start": "serve -s src/"
+  },
+  "author": "cristianblar <cristianblar12@icloud.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^13.0.2"
+  }
+}
