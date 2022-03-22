@@ -9,3 +9,8 @@ window.addEventListener('load', () => {
       b.addEventListener('click', () => appRouter.load(b.id.split('-')[0]))
     )
 })
+
+window.addEventListener('popstate', () => {
+  const rootDiv = document.getElementById('content')
+  appRouter.initRouter(rootDiv)
+})
